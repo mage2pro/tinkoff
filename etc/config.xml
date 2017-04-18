@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<config
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='urn:magento:module:Magento_Store:etc/config.xsd'
+>
+    <default>
+		<df_payment>
+			<tinkoff>
+				<countries>RU</countries>
+				<country_restriction>whitelist</country_restriction>
+				<currency>RUB</currency>
+				<description>{store.domain} // {customer.name} // {order.id}</description>
+				<requireBillingAddress>1</requireBillingAddress>
+				<payment_action>authorize_capture</payment_action>
+				<title>Tinkoff Bank</title>
+				<title_backend>Tinkoff Bank</title_backend>
+			</tinkoff>
+		</df_payment>
+        <payment>
+            <dfe_tinkoff>
+				<model>Dfe\Tinkoff\Method</model>
+            </dfe_tinkoff>
+        </payment>
+    </default>
+</config>
