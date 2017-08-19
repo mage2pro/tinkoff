@@ -57,13 +57,13 @@
 					<depends><field id='enable'>1</field></depends>
 				</field>
 				<field
-					id='testPublicKey'
+					id='testMerchantID'
 					showInDefault='1' showInStore='1' showInWebsite='1'
 					sortOrder='4'
 					translate='label'
 					type='text'
 				>
-					<label>Test Public Key</label>
+					<label>Test Merchant ID</label>
 					<comment><![CDATA[<a href='https://mage2.pro/t/3743' target='_blank'>How to get it?</a>]]></comment>
 					<depends>
 						<field id='enable'>1</field>
@@ -88,13 +88,13 @@
 					<validate>required-entry</validate>
 				</field>
 				<field
-					id='livePublicKey'
+					id='liveMerchantID'
 					showInDefault='1' showInStore='1' showInWebsite='1'
 					sortOrder='6'
 					translate='label'
 					type='text'
 				>
-					<label>Live Public Key</label>
+					<label>Live Merchant ID</label>
 					<comment><![CDATA[<a href='https://mage2.pro/t/3743' target='_blank'>How to get it?</a>]]></comment>
 					<depends>
 						<field id='enable'>1</field>
