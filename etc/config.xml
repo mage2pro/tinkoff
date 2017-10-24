@@ -11,7 +11,6 @@
 				<currency>RUB</currency>
 				<description>{store.domain} // {customer.name} // {order.id}</description>
 				<requireBillingAddress>1</requireBillingAddress>
-				<payment_action>authorize_capture</payment_action>
 				<title>Tinkoff Bank</title>
 				<title_backend>Tinkoff Bank</title_backend>
 			</tinkoff>
