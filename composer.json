@@ -1,7 +1,7 @@
 {
 	"name": "mage2pro/tinkoff"
 	,"version": "0.0.4"
-	,"description": "The «Tinkoff Bank» (Тинькофф Банк) payment extension for Magento 2."
+	,"description": "Tinkoff Bank (Тинькофф Банк) integration with Magento 2"
 	,"type": "magento2-module"
 	,"homepage": "https://mage2.pro/c/extensions/tinkoff"
 	,"license": "proprietary"
