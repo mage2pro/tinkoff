@@ -1,4 +1,4 @@
-The extension integrates your Magento 2 store with the [payment gateway](https://oplata.tinkoff.ru) of [Tinkoff Bank](https://www.tinkoff.ru/eng) (Тинькофф Банк) (Russia).
+The extension integrates your Magento 2 based webstore with the [payment gateway](https://oplata.tinkoff.ru) of [Tinkoff Bank](https://www.tinkoff.ru/eng) (Тинькофф Банк) (Russia).
 
 ## How to buy
 The extension is not released yet, so there is no way to buy it just now.  
